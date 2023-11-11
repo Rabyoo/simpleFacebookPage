@@ -1,0 +1,449 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    min-height: 180vh;
+    background: url('../images/night-2.jpg') no-repeat center;
+    overflow-x: hidden;
+}
+.container {
+    
+}
+.container header {
+    position: absolute;
+    background-color: #ffffff16;
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #ffffffa7;
+}
+.container header .top {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 20px;
+}
+.container header .top .search input {
+    position: relative;
+    left: -150px;
+    top: -10px;
+    width: 260px;
+    padding: 5px 10px;
+    border-radius: 25px;
+    border: 1px solid rgba(128, 128, 128, 0.367);
+    outline: none;
+    font-size: 16px;
+    transition: 0.4s;
+}
+
+.container header .top .search input:focus {
+    background-color: rgba(227, 227, 227, 0.938);
+}
+.container header .top .logo{
+    background-color: rgb(46, 46, 167);
+    padding: 5px 10px;
+    color: #FFF;
+    border-radius: 4px;
+    position: relative;
+    top: -12px;
+    cursor: pointer;
+    height: 35px;
+}
+.container header .top .logo i{
+    font-size: 22px;
+    position: relative;
+    left: 4px;
+}
+.container header .top .head-icons{
+    display: flex;
+    position: relative;
+    left: -150px;
+    top: -5px;
+    cursor: pointer;
+}
+.container header .top .head-icons i{
+    margin-left: 30px;
+    font-size: 22px;
+    color: #fefefe;
+}
+.container header .top .personal{
+    position: relative;
+    top: -30px;
+}
+.container header .top .personal i{
+    font-size: 22px;
+    color: #fff;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.container header .top .personal img{
+    border-radius: 50%;
+    position: relative;
+    top: 13px;
+    left: 30px;
+    cursor: pointer;
+    background-color: #222;
+    padding: 2px;
+    border: 1px solid #ffffff8b;
+}
+/* Start part-left */
+.container .part-left .top{
+    position: absolute;
+    top: 15%;
+    left: 3%;
+    padding: 20px;
+    border-radius: 6px;
+    width: 16%;
+    background-color: #ffffff1f;
+    border: 1px solid rgb(220 220 220 / 48%);
+    box-shadow: inset 0px 0px 10px rgb(200, 200, 200);
+}
+.container .part-left .profile h4 {
+    color: #fff;
+}
+.container .part-left .profile {
+    display: flex;
+}
+.container .part-left .profile img {
+    border-radius: 50%;
+    position: relative;
+    top: -10px;
+    left: 5px;
+    margin-right: 10px;
+    background-color: #222;
+    padding: 2px;
+    border: 1px solid #ffffff8b;
+}
+.container .part-left .icons p {
+    position: relative;
+    left: 25px;
+    top: 20px;
+    color: #fff;
+}
+.container .part-left .icons {
+    cursor: pointer;
+}
+.container .part-left .icons i {
+    color: goldenrod;
+}
+.container .part-left .bottom {
+    position: absolute;
+    left: 3%;
+    top: 67%;
+    width: 16%;
+    border-radius: 6px;
+    padding: 20px;
+    background-color: #ffffff1f;
+    border: 1px solid rgb(220 220 220 / 48%);
+    box-shadow: inset 0px 0px 10px rgb(200, 200, 200);
+}
+.container .part-left .bottom .title h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.container .part-left .bottom p {
+    position: relative;
+    left: 75px;
+    top: 30px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+}
+.container .part-left .bottom img {
+    border-radius: 8px;
+    position: relative;
+    left: -10px;
+}
+/* End part-left */
+/* Start Center */
+.container .part-center .top {
+    position: absolute;
+    left: 19.5%;
+    top: 15%;
+    width: 60%;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #ffffff1f;
+    border: 1px solid rgb(220 220 220 / 48%);
+    box-shadow: inset 0px 0px 10px rgb(200, 200, 200);
+}
+.container .part-center .top::before {
+    content: "";
+    position: absolute;
+    top: 17%;
+    left: 10%;
+    width: 80%;
+    height: 2px;
+    background-color: #929292;
+}
+.container .part-center .top .head {
+    display: flex;
+    justify-content: space-evenly;
+}
+.container .part-center .top .head > div {
+    display: flex;
+    color: #FFF;
+}
+.container .part-center .top .head > div h4 {
+    margin: 0 5px;
+}
+.container .part-center .top .stories {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 25px;
+    left: 25px;
+    height: 230px;
+}
+.container .part-center .top .stories img {
+    border-radius: 8px;
+}
+.container .part-center .top .stories h4 {
+    position: relative;
+    width: 108%;
+    left: -50px;
+    top: 150px;
+    color: #FFF;
+}
+.container .part-center .center {
+    position: absolute;
+    left: 19.5%;
+    top: 65%;
+    width: 60%;
+    border-radius: 8px;
+    padding: 30px 20px;
+    background-color: #ffffff1f;
+    border: 1px solid rgb(220 220 220 / 48%);
+    box-shadow: inset 0px 0px 10px rgb(200, 200, 200);
+}
+.container .part-center .center::before {
+    content: "";
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    width: 80%;
+    height: 2px;
+    background-color: #929292;
+}
+.container .part-center .center .prof {
+    display: flex;
+    position: relative;
+    top: -10px;
+    left: 5px;
+}
+.container .part-center .center .prof input {
+    width: 55%;
+    height: 30px;
+    border-radius: 25px;
+    padding:  0 10px;
+    border: none;
+    outline: none;
+    position: relative;
+    top: -5px;
+    left: 10px;
+    background-color: #2222228c;
+    color: #FFF;
+    font-size: 16px;
+}
+.container .part-center .center .prof input::placeholder {
+    color: #fff;
+}
+.container .part-center .center img {
+    border-radius: 50%;
+    position: relative;
+    top: -10px;
+    left: 5px;
+    margin-right: 10px;
+    background-color: #222;
+    padding: 2px;
+    border: 1px solid #ffffff8b;
+}
+.container .part-center .center .share {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 10px;
+}
+.container .part-center .center .share p {
+    position: relative;
+    left: -55px;
+    font-weight: 600;
+}
+.container .part-center .center .share .fa-video {
+    color: rgb(201, 17, 17);
+}
+.container .part-center .center .share .fa-photo-film {
+    color: rgb(29, 29, 217);
+}
+.container .part-center .center .share .fa-chart-line {
+    color: rgb(33, 243, 33);
+}
+/* End Center */
+/* Start Bottom */
+.container .part-center .bottom {
+    position: absolute;
+    left: 19.5%;
+    top: 87%;
+    width: 60%;
+    border-radius: 8px;
+    padding: 30px 20px;
+    background-color: #ffffff1f;
+    border: 1px solid rgb(220 220 220 / 48%);
+    box-shadow: inset 0px 0px 10px rgb(200, 200, 200);
+}
+.container .part-center .bottom::before {
+    content: "";
+    position: absolute;
+    left: 10%;
+    top: 88%;
+    width: 80%;
+    height: 2px;
+    background-color: #929292;
+}
+.container .part-center .bottom .profile-share img {
+    border-radius: 50%;
+    position: relative;
+    top: -10px;
+    left: 5px;
+    margin-right: 10px;
+    background-color: #222;
+    padding: 2px;
+    border: 1px solid #ffffff8b;
+}
+.container .part-center .bottom .profile-share {
+    display: flex;
+}
+.container .part-center .bottom .profile-share p {
+    position: relative;
+    top: 15px;
+    left: -90px;
+}
+.container .part-center .bottom .title-stoier h3 {
+    position: relative;
+    left: 20px;
+    margin: 15px 0;
+    color: #FFF;
+}
+.container .part-center .bottom .published img {
+    border-radius: 8px;
+}
+.container .part-center .bottom .support {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    color: #FFF;
+}
+.container .part-center .bottom .support h4 {
+    position: relative;
+    left: -75px;
+}
+.container .part-center .bottom .profile img {
+    border-radius: 50%;
+    position: relative;
+    top: -10px;
+    left: 5px;
+    margin-right: 10px;
+    background-color: #222;
+    padding: 2px;
+    border: 1px solid #ffffff8b;
+}
+.container .part-center .bottom .profile {
+    position: relative;
+    top:30px;
+    display: flex;
+}
+.container .part-center .bottom .profile input {
+    position: relative;
+    width: 330px;
+    height: 30px;
+    top: -5px;
+    padding: 0 10px;
+    border-radius: 25px;
+    border: 1px solid rgba(128, 128, 128, 0.552);
+    outline: none;
+    font-size: 16px;
+    background-color: #ffffffa2;
+    border: 1px solid #eee;
+    transition: 0.4s;
+}
+/* End Bottom */
+/* Start part-right */
+.container .part-right .top {
+    position: absolute;
+    right: 3.5%;
+    top: 15%;
+    width: 16%;
+    border-radius: 8px;
+    padding: 30px 20px;
+    background-color: #ffffff1f;
+    border: 1px solid rgb(220 220 220 / 48%);
+    box-shadow: inset 0px 0px 10px rgb(200, 200, 200);
+}
+.container .part-right .top .title h3 {
+    position: relative;
+    top: -15px;
+}
+.container .part-right .top .channels img {
+    border-radius: 8px;
+    position: relative;
+    left: -15px;
+}
+.container .part-right .top .channels p {
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    left: 65px;
+    top: 30px;
+}
+.container .part-right .center {
+    position: absolute;
+    right: 3.5%;
+    top: 53%;
+    width: 16%;
+    height: 50px;
+    border-radius: 20px;
+    padding: 30px 20px;
+    background-color: #ffffff1f;
+    border: 1px solid rgb(220 220 220 / 48%);
+    box-shadow: inset 0px 0px 10px rgb(200, 200, 200);
+}
+.container .part-right .center .birthday {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -8px;
+}
+.container .part-right .bottom {
+    position: absolute;
+    right: 3.5%;
+    top: 65%;
+    width: 16%;
+    border-radius: 8px;
+    padding: 30px 20px;
+    background-color: #ffffff1f;
+    border: 1px solid rgb(220 220 220 / 48%);
+    box-shadow: inset 0px 0px 10px rgb(200, 200, 200);
+}
+.container .part-right .bottom .images-prof {
+    display: flex;
+    flex-direction: column;
+}
+.container .part-right .bottom .images-prof h4 {
+    position: relative;
+    left: 55px;
+    top: -40px;
+}
+.container .part-right .bottom .images-prof img {
+    border-radius: 50%;
+    position: relative;
+    top: -10px;
+    left: 5px;
+    margin-right: 10px;
+    background-color: #222;
+    padding: 2px;
+    border: 1px solid #ffffff8b;
+}
+/* End part-right */
